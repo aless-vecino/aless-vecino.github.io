@@ -23,6 +23,21 @@
       padding: 1rem;
       text-align: center;
     }
+
+    .nav-button {
+      display: inline-block;
+      margin: 0 10px;
+      padding: 0.5rem 1rem;
+      background-color: #007acc;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .nav-button:hover {
+      background-color: #005f99;
+    }
     nav 2 {
       color: #fff;
       margin: 0 15px;
@@ -57,10 +72,10 @@
 </header>
 
 <nav>
-  <a href="#about">About</a>
-  <a href="#research">Research</a>
-  <a href="#CV">C.V.</a>
-  <a href="#contact">Contact </a>
+  <a href="#about" class="nav-button">About</a>
+  <a href="#research" class="nav-button">Research</a>
+  <a href="#CV" class="nav-button">C.V.</a>
+  <a href="#contact" class="nav-button">Contact </a>
 </nav>
   
 <section id="about">
